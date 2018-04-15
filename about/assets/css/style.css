@@ -1,16 +1,7 @@
+
  body {
     overflow-x: hidden;
     background: black;
-}
-
-/*!
- * Start Bootstrap - Simple Sidebar (http://startbootstrap.com/)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
-
- body {
-    overflow-x: hidden;
  }
 
 /* Toggle Styles */
@@ -134,17 +125,65 @@
 }
 
 /*for content*/
-.col-lg-12{
-   
-   	background-position: center;
-    background-size: cover;
+.col-lg-4, {
+	display: inline-block;
+	float: left;
+}
+
+.col-lg-2 {
+	display: inline-block;
+	float: left;
+
+}
+
+img {
+	 -webkit-filter: grayscale(2);
+}
+
+img:hover {
+	-webkit-filter: brightness(100%);
+	}
+
+
+
+video {
+    -webkit-filter: grayscale(2);
+    display: inline-block;
     padding: 0;
-    height: 100vh;
+    width: 500px;
+    height: 300px;
+}
+
+video:hover {-webkit-filter: brightness(100%);
+}
+
+p {
+	font-size: 15px;
+	text-align: justify-all;
+	font-style: roboto;
+}
+
+#myvideo1 {
+	padding-top: 20%;
+	
+}
+
+#myvideo2 {
+	padding-top: 10%;
+}
+
+#myvideo3 {
+	padding-top: 10%;
+}
+
+#myvideo4 {
+	padding-top: 10%;
 }
 
 
+
 #content {
-    text-align: center;
+    text-align: justify-all;
     padding-top: 0;
 }
 

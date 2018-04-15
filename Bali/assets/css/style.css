@@ -144,11 +144,10 @@ img:hover {-webkit-filter: brightness(100%);
 }
 
 
-}
-
 iframe {
     -webkit-filter: grayscale(1);
     display: center;
+    
 }
 
 iframe:hover {-webkit-filter: brightness(100%);

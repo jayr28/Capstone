@@ -124,6 +124,7 @@
 
 
 
+
 img {
     /*padding: 50px;*/
     height: 250px;
@@ -143,8 +144,6 @@ img:hover {-webkit-filter: brightness(100%);
    
 }
 
-
-}
 
 iframe {
     -webkit-filter: grayscale(2);
